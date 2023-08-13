@@ -61,7 +61,7 @@ class NewsController extends BaseController
             //upload image
             $image = $request->file('image');
             $image->storeAs('public/news', $image->hashName());
-            return $this->sendError($image->storeAs('public/news', $image->hashName()), 400);
+
             // insert
             $news = News::create([
                 'title' => $request->title,
