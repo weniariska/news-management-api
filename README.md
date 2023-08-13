@@ -11,7 +11,7 @@ Notes : Laravel 10.x requires a minimum PHP version of 8.1.
 - Run php artisan storage:link
 - Run php artisan migrate
 - Run php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
-- Run php artisan serve
+- Run php artisan serve or use virtual host (https://www.rumahcode.org/12/Cara-Install-Codeigniter-4-di-xampp)
 
 
 ## Postman Documentation
